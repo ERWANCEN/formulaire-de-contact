@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire de contact</title>
+
+    <link rel="stylesheet" href="asset/css/style.css">
+</head>
+<body>
+    <div id="container">
+        <form id="form">
+            <fieldset id="a-quel-propos">
+                <legend>À quel(s) propos ?</legend>
+                <label for="objet-message" id="label-objet-message">Objet de votre message :</label>
+                <select id="objet-message">
+                    <option value="developpement-web">Développement web</option>
+                    <option value="ux">UX</option>
+                    <option value="ui">UI</option>
+                </select>
+            </fieldset>
+
+            <fieldset id="vos-coordonnees">
+                <legend>Vos coordonnées</legend>
+                <label for="name" id="label-name">Votre prénom</label>
+                <input type="name" id="name" name="name" placeholder="Ici votre prénom"></input>
+
+                <label for="lastName" id="label-lastname">Votre prénom</label>
+                <input type="lastName" id="lastName" name="lastName" placeholder="Ici votre nom"></input>
+
+                <label for="email" id="label-email">Votre prénom</label>
+                <input type="email" id="email" name="email" placeholder="Ici votre email"></input>
+
+                <label for="message" id="label-message">Laissez votre message</label>
+                <textarea for="message" id="message" name="message" placeholder="Ici votre message"></textarea>
+            </fieldset>
+
+            <div id="buttons">
+                <button type="submit">Envoyer</button>
+                <button type="reset">Effacer</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

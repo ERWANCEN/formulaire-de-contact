@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --texteAndLines-color: orange;
+}
+
+fieldset {
+    margin-top: 30px;
+}
+
+legend {
+    color: orange;
+}
+
+input, textarea, select, #objet-message, button {
+    border: 2px solid orange;
+    background: rgba(255, 166, 0, 0.2);
+    border-radius: 7px;
+    padding: 5px;
+}
+
+#container {
+    width: 500px;
+    height: 500px;
+    margin: auto;
+}
+
+#a-quel-propos {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid orange;
+}
+
+#label-objet-message {
+    margin-bottom: 10px;
+}
+
+#vos-coordonnees {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px 20px 20px;
+    border: 2px solid orange;
+}
+
+#label-name, #label-lastname, #label-email, #label-message {
+    margin: 15px 0px 5px 3px;
+}
+
+#name, #lastName, #email, #message {
+    width: 450px;
+    margin: auto;
+}
+
+#message {
+    padding: 5px;
+    height: 100px;
+}
+
+#buttons {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+button {
+    width: 150px;
+    height: 50px;
+    box-shadow: 2px 2px 4px orange;
+}
